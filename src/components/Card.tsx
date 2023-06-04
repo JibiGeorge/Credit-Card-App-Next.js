@@ -2,13 +2,19 @@ import React from 'react'
 import Card from 'react-credit-cards-2';
 import 'react-credit-cards-2/dist/es/styles-compiled.css';
 
-const Cards = () => {
+interface CardsProps {
+    watch?: any;
+    focused?: any;
+}
+const Cards: React.FC<CardsProps> = ({ watch, focused }) => {
+
     return (
         <Card
-            number='1234567890123456'
-            name='Jibi George'
-            expiry='24/56'
-            cvc='54252'
+            number={watch("cardNumber", "")}
+            name={watch("holderName", "")}
+            expiry={watch("cardExpiry", "")}
+            cvc={watch("cvc", "")}
+            focused={focused}
         />
     )
 }
