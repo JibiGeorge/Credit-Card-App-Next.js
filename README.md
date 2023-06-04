@@ -1,5 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Demo
+
+https://github.com/JibiGeorge/Credit-Card-App-Next.js/assets/112756465/f2899fce-0ce2-441d-bba4-1065636a950b
+
+
 ## Getting Started
 
 First, run the development server:
